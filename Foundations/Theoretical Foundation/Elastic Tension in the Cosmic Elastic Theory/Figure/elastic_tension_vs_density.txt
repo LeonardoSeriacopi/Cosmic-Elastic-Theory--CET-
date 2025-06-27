@@ -1,0 +1,26 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Parâmetros
+rho = np.logspace(-3, 1, 500)  # densidade de 0.001 a 10
+rho_crit = 1
+L_c = 1
+m = 1
+n_values = [1, 2, 4, 8]  # diferentes valores de n
+
+# Gráfico
+plt.figure(figsize=(10, 6))
+for n in n_values:
+    T_rho = (m / L_c**2) / (1 + (rho_crit / rho)**n)
+    plt.plot(rho, T_rho, label=f"n = {n}")
+
+plt.xscale('log')
+plt.xlabel(r'Density $\rho$ (log scale)')
+plt.ylabel(r'Elastic Tension $T(\rho)$')
+plt.title('Elastic Tension as a Function of Density for Different $n$')
+plt.axvline(x=rho_crit, color='gray', linestyle='--', label=r'$\rho_{\mathrm{crit}}$')
+plt.legend()
+plt.grid(True, which='both', linestyle='--', linewidth=0.5)
+plt.tight_layout()
+plt.savefig("elastic_tension_vs_density.png", dpi=300)
+plt.show()
