@@ -1,2 +1,0 @@
-Fronteira do vazio identificada: 1,842 pontos
-Diagrama de persistência salvo em: eridanus_persistence.png
