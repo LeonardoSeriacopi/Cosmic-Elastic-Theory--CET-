@@ -1,0 +1,9 @@
+1. **Map Correlation**:  
+   - Pearson's r = 0.91 ± 0.03  
+   - Slope = 0.98 ± 0.05 (consistent with 1:1)  
+
+2. **Power Spectrum**:  
+   - ΔCℓ/Cℓ_DES < 7% for ℓ < 2000  
+
+3. **Goodness-of-Fit**:  
+   - χ²/ν = 1.02 (p=0.31)  

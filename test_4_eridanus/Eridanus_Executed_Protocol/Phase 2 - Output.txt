@@ -1,1 +1,1 @@
-Densidade média no vazio: 7.25e-27 kg/m³
+Mean void density: 7.25×10⁻²⁷ kg/m³

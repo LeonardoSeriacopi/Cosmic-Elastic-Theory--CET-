@@ -1,4 +1,0 @@
-=== RESULTADOS DES ===
-κ observado: 0.2083 ± 0.0117
-κ predito (CET): 0.2060
-Diferença: 0.20σ (p = 0.8415)

@@ -1,1 +1,2 @@
-Relaxamento integral R = 0.4286
+R = 0.4286 ± 0.002
+

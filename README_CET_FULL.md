@@ -20,23 +20,17 @@ This repository consolidates the theoretical framework, empirical validations, a
 ## 📁 Repository Structure
 
 ```
-├── Foundations/               # Core theory: tension, density, isotropy, tensors
-│   ├── PDF/                   # Explanatory documents and derivations
-│   └── Scripts/               # Symbolic and numerical tools
+├── Foundations/               
+│   ├── Preliminary Analyses              # Explanatory documents and derivations
+│   └── Theoretical Foundation            # Core theory: tension and isotropy
 │
-├── Clusters_DES_Y3/           # Empirical test of cluster stability (new)
-│   ├── Scripts/               # Full pipeline to compute R_CET
-│   ├── Results/               # Processed data (Excel, CSV)
-│   ├── Figures/               # Visualizations (PDFs)
-│   └── Manuscript/            # Paper draft (LaTeX)
 │
-├── Voids_Eridanus/            # Causal rupture analysis in cosmic void
-├── Pantheon/                  # Type Ia supernovae elasticity test
-├── CEERS_JADES/               # High-z elasticity from JWST catalogs
-├── Validation_RedshiftDrift/ # CET vs. ΛCDM redshift drift
+├── Voids_Eridanus             # Causal rupture analysis in cosmic void
+├── Pantheon Supernovas        # A density-based application to redshift observations
+├── CEERS_JADES                # High-z elasticity from JWST catalogs
+├── DR16Q Quasars              # Statistical comparison of the redshift distribution
+├── DES Y3A@ Clusters          # Gravitational stability without dark matter
 └── README_CET.md              # This file
 ```
-
-
 
 

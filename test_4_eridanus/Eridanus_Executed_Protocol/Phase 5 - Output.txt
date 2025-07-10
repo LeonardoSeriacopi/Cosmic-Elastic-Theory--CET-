@@ -1,6 +1,1 @@
-=== RESULTADOS ERI DANUS ===
-1. Tamanho do vazio: 186.3 Mpc
-2. Relaxamento integral (R): 0.4286
-3. Distorção de redshift (Δz): -0.0180
-4. Razão de Poisson (ν): 0.327
-5. Elasticidade CET: 32.7% do limite teórico
+ν = 0.327 (32.7% of theoretical limit)
