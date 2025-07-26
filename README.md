@@ -6,8 +6,8 @@ This repository consolidates the theoretical framework, empirical validations, a
 
 ## 🔬 Scientific Scope
 
-- *Foundational Theory*: Redefines the cosmological redshift as an elastic deformation, based on brane tension \( T(\rho) \), elastic rate \( \alpha(\rho) \), and a causal density limit \( \rho_{\text{sat}} \).
-- *Mathematical Framework*: Tensor calculus and saturation dynamics, including equations for pressure \( P_{\text{crit}} \), deformation, and causal decoupling.
+- *Foundational Theory*: Reinterprets cosmological redshift as an elastic deformation of space-time, defined by three key quantities: T(rho): the elastic tension as a function of local density / alpha(rho): the deformation rate / rho_sat: the causal density limit that triggers decoupling.
+- *Mathematical Framework*: Built on tensor calculus and deformation dynamics, the theory introduces phase transitions between underdense (stretching) and overdense (compression) regimes.
 - *Empirical Validation*:
   - High-redshift galaxies cluster (JADES)
   - Elasticity in CEERS galaxies (local mapping)
