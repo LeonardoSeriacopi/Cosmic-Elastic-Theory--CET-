@@ -15,6 +15,7 @@ This repository consolidates the theoretical framework, empirical validations, a
   - Geometric tension behavior in cosmic voids (Eridanus)
   - Cluster stability without dark matter (DES Y3A2) 
   - Redshift-density statistical structure (quasars DR16Q)
+  - Phase transition signatures in weak lensing variance (DES Weak Lensing Catalog).
 
 ---
 
@@ -30,10 +31,14 @@ This repository consolidates the theoretical framework, empirical validations, a
 ├── test_4_eridanus/                   
 ├── test_5_cluster_stability/          
 ├── test_6_quasars/                    
-│
+├── test_7_des_dr1/ 
 ├── LICENSE_CC_BY_4.0
 ├── LICENSE_MIT
 └── README.md 
+
+--- 
+
+**DES Weak Lensing Catalog:** This analysis inaugurates the second phase of CET's empirical validation, with a new focus on the emergent gravity paradigm. Instead of analyzing redshift corrections in low-density regimes, this test probes the theory's core prediction in high-density environments: that gravity itself is modulated by a thermodynamic phase transition in the spacetime medium. By analyzing the variance of weak lensing convergence (kappa) from the DES catalog, we search for the "smoking gun" signature of this transition—a peak in variance at the theoretically predicted critical pressure.
 
 --- 
 
