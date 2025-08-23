@@ -1,0 +1,2 @@
+R2_adj_base,R2_adj_nonlin,delta_R2_nonlin_minus_base,R2_cap,delta_R2_cap_minus_base,env_metric_used,n_samples
+0.8899831536729597,0.9749284252234938,0.08494527155053411,0.795794690327601,-0.09418846334535869,losdens_mass_density_mean,474603

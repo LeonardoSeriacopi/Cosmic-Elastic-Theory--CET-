@@ -1,0 +1,3 @@
+best_c0=2.000  best_c1=1.000  R2_adj_cap≈0.7958
+ΔR2 (cap - base) ≈ -0.0942
+(base R2_adj ≈ 0.8900)

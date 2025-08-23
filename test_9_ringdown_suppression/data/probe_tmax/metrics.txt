@@ -1,0 +1,8 @@
+=== TMax probe summary ===
+R2_adj_base: 0.8899831536729597
+R2_adj_nonlin: 0.9749284252234938
+delta_R2_nonlin_minus_base: 0.08494527155053411
+R2_cap: 0.795794690327601
+delta_R2_cap_minus_base: -0.09418846334535869
+env_metric_used: losdens_mass_density_mean
+n_samples: 474603

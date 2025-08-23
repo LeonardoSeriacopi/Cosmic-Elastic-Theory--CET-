@@ -6,25 +6,37 @@ The Cosmic Elastic Theory (CET) reinterprets cosmology through the lens of an el
 CET/
 │
 ├── Foundations/                # Theoretical groundwork
-│   ├── Theoretical_Foundation/ 
-│   └── Analysis/               
+│   ├── Theoretical\_Foundation/
+│   └── Analysis/  
 │
 ├── Tests/                      # Empirical validations
-│   ├── test_1_pantheon/        
-│   ├── test_2_ceers/           
-│   ├── test_3_jades/           
-│   ├── test_4_eridanus/        
-│   ├── test_5_cluster_stability/
-│   ├── test_6_quasars/         
-│   ├── test_7_des_dr1/         
-│   └── test_8_gravitational_waves/   # (new)
+│   ├── test\_1\_pantheon/        
+
+│   ├── test\_2\_ceers/           
+
+│   ├── test\_3\_jades/           
+
+│   ├── test\_4\_eridanus/        
+
+│   ├── test\_5\_cluster\_stability/
+
+│   ├── test\_6\_quasars/         
+
+│   ├── test\_7\_des\_dr1/         
+
+│   ├── test\_8\_gravitational\_waves/   # LOS suppression
+
+│   └── test\_9\_ringdown\_suppression/  # (new)
+
 │        ├── data/              # Raw + processed datasets
-│        ├── scripts/           # Analysis pipeline
+
+│        ├── scripts/           # Nonlinear + cap models
+
 │        ├── figures/           # Output plots
-│        └── CET_GW_LOS.pdf     # Full report (linked to OSF)
-│
-├── LICENSE_CC_BY_4.0
-├── LICENSE_MIT
+
+│        └── Testing the Maximum Tension Hypothesis in Cosmic Elastic Theory.pdf       
+├── LICENSE\_CC\_BY\_4.0
+├── LICENSE\_MIT
 └── README.md
 
 🔬 **Scientific Scope**
@@ -55,11 +67,13 @@ PDF Report → full write-up in LaTeX, archived on OSF.
 **Example (Test 8 – GW LOS suppression):**
 
 # Run multivariate regression and LOS contribution test
-python scripts/finalize_los_analysis.py posterior_with_density.csv results_los6 \
-       --events "GW150914_095045,GW151012_095443,GW170104_101158,..."
+
+python scripts/finalize\_los\_analysis.py posterior\_with\_density.csv results\_los6   
+--events "GW150914\_095045,GW151012\_095443,GW170104\_101158,..."
 
 # Build tables from results
-python scripts/make_tables.py results_los6
+
+python scripts/make\_tables.py results\_los6
 
 🌐 **Open Access**
 
@@ -70,3 +84,4 @@ All preprints and reports are archived at OSF:
 
 This is an open research initiative exploring cosmology from first principles of tension, deformation, and thermodynamics.
 Ideas, forks, critiques, and collaborations are welcome.
+
