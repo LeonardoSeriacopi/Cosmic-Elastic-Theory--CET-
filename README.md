@@ -1,56 +1,72 @@
-# Cosmic Elastic Theory (CET)
+🌌 **Cosmic Elastic Theory** (CET)
 
-This repository consolidates the theoretical framework, empirical validations, and data analysis pipelines of the *Cosmic Elastic Theory (CET)*, a novel approach to cosmology in which redshift is reinterpreted as an elastic deformation of space-time. CET offers an alternative to dark matter and dark energy by introducing causal saturation, elastic tension, and geometric corrections in underdense and overdense cosmic structures.
+The Cosmic Elastic Theory (CET) reinterprets cosmology through the lens of an elastic spacetime medium, where cosmic acceleration and emergent gravity arise from thermodynamic tension, deformation, and phase transitions — without invoking dark energy or dark matter.
 
----
-
-## 🔬 Scientific Scope
-
-- *Foundational Theory*: Reinterprets cosmological redshift as an elastic deformation of space-time, defined by three key quantities: T(rho): the elastic tension as a function of local density / alpha(rho): the deformation rate / rho_sat: the causal density limit that triggers decoupling.
-- *Mathematical Framework*: Built on tensor calculus and deformation dynamics, the theory introduces phase transitions between underdense (stretching) and overdense (compression) regimes.
-- *Empirical Validation*:
-  - High-redshift galaxies cluster (JADES)
-  - Elasticity in CEERS galaxies (local mapping)
-  - Supernovae and density-dependent redshift deformation  (Pantheon+)
-  - Geometric tension behavior in cosmic voids (Eridanus)
-  - Cluster stability without dark matter (DES Y3A2) 
-  - Redshift-density statistical structure (quasars DR16Q)
-  - Phase transition signatures in weak lensing variance (DES Weak Lensing Catalog).
-
----
-
-📁 Repository Structure
+📂 **Repository Structure**
+CET/
 │
-├── Foundations/
-│   ├── Theoretical Foundation/        
-│   └── Analysis/                     
+├── Foundations/                # Theoretical groundwork
+│   ├── Theoretical_Foundation/ 
+│   └── Analysis/               
 │
-├── test_1_pantheon/                   
-├── test_2_ceers/                      
-├── test_3_jades/                     
-├── test_4_eridanus/                   
-├── test_5_cluster_stability/          
-├── test_6_quasars/                    
-├── test_7_des_dr1/ 
+├── Tests/                      # Empirical validations
+│   ├── test_1_pantheon/        
+│   ├── test_2_ceers/           
+│   ├── test_3_jades/           
+│   ├── test_4_eridanus/        
+│   ├── test_5_cluster_stability/
+│   ├── test_6_quasars/         
+│   ├── test_7_des_dr1/         
+│   └── test_8_gravitational_waves/   # (new)
+│        ├── data/              # Raw + processed datasets
+│        ├── scripts/           # Analysis pipeline
+│        ├── figures/           # Output plots
+│        └── CET_GW_LOS.pdf     # Full report (linked to OSF)
+│
 ├── LICENSE_CC_BY_4.0
 ├── LICENSE_MIT
-└── README.md 
+└── README.md
 
---- 
+🔬 **Scientific Scope**
 
-**DES Weak Lensing Catalog:** This analysis inaugurates the second phase of CET's empirical validation, with a new focus on the emergent gravity paradigm. Instead of analyzing redshift corrections in low-density regimes, this test probes the theory's core prediction in high-density environments: that gravity itself is modulated by a thermodynamic phase transition in the spacetime medium. By analyzing the variance of weak lensing convergence (kappa) from the DES catalog, we search for the "smoking gun" signature of this transition—a peak in variance at the theoretically predicted critical pressure.
+Foundational Theory
+Redshift as elastic deformation.
+Critical pressure and dual regimes of spacetime.
 
---- 
+Empirical Tests
 
-🌐Open Access
+Supernovae (Pantheon+)
+Galaxy surveys (JADES, CEERS, DES)
+Quasar residuals (DR16Q)
+Cluster stability without dark matter
+Elastic response in supervoids (Eridanus)
+Weak lensing variance (DES Y3A2)
 
-Preprint available at:
-📂 https://osf.io/vpq76     
+NEW: Line-of-sight density suppression in gravitational-wave ringdowns.
 
----
+⚙️ **Workflow for Each Test**
 
-🤝 Contributions
+Every test follows a transparent pipeline:
+Data preparation → load raw catalogues, apply event/galaxy filters.
+Scripts → analysis with regression models (OLS/Ridge, permutation tests).
+Outputs → figures (PNG), tables (CSV/MD), and short summaries (JSON).
+PDF Report → full write-up in LaTeX, archived on OSF.
 
-This is an open research initiative aimed at reconstructing cosmological dynamics from first principles of deformation, tension, and geometry — without hypothetical energy components.
+**Example (Test 8 – GW LOS suppression):**
+
+# Run multivariate regression and LOS contribution test
+python scripts/finalize_los_analysis.py posterior_with_density.csv results_los6 \
+       --events "GW150914_095045,GW151012_095443,GW170104_101158,..."
+
+# Build tables from results
+python scripts/make_tables.py results_los6
+
+🌐 **Open Access**
+
+All preprints and reports are archived at OSF:
+📂 https://osf.io/vpq76
+
+🤝 **Contributions**
+
+This is an open research initiative exploring cosmology from first principles of tension, deformation, and thermodynamics.
 Ideas, forks, critiques, and collaborations are welcome.
-          

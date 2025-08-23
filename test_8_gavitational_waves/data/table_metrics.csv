@@ -1,0 +1,6 @@
+metric,value
+Adj. R² (padronizado),0.9146
+ΔR² (adicionar LOS),0.1149
+R2_full_adj_or_plain,0.9146
+ΔR² observado (permutação LOS),0.1149
+p-valor permutação (LOS),0.0033
