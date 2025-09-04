@@ -1,0 +1,19 @@
+Property,Value,Notes
+Event,"SN 2023zkd","Supernova classified as interacting (IIn-like)"
+Discovery,"2023-07-07","Detected by ZTF, mag ~20.6 in r-band"
+Coordinates,"RA 15h48m47.536s, Dec +09°12′00.28″ (J2000)","~0.6″ from host galaxy center"
+Redshift,"0.0560 ± 0.0002","From Hα in host galaxy"
+Host Galaxy,"PSO J154847.495+091200.90","Low-mass, low-SFR dwarf galaxy"
+Host Mass,7.93 log(M*/M☉),"Among the lowest 10% of SN IIn hosts"
+Host SFR,0.01 M☉/yr,"Very low star formation rate"
+Host Metallicity,"~0.3 dex below solar","Lower than SN 2021qqp host"
+Peak Magnitude,"Mr between −18.3 and −19.4","Brighter than typical IIn, fainter than SLSN IIn"
+Light Curve,"Double peak, ~112 days separation","Compared to 224 days in SN 2021qqp"
+Rise Rate,"~50 mmag/day","Slower than SN 2021qqp (~70 mmag/day)"
+Spectroscopy,"Strong Balmer + persistent He I","Asymmetric profiles with electron scattering"
+Hα Profile,"Narrow core + broad base (~6000 km/s)","Observed at all epochs"
+He I Evolution,"Double-peaked at +90 days, flat/blue-peaked at +258 days","Uncommon in SNe IIn"
+Spectral Coverage,"168 days of follow-up","Dense temporal sequence"
+Classification,"SN IIn-like with strong interaction","Unusual persistence of He I lines"
+
+

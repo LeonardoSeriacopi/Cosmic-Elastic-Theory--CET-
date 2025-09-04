@@ -1,0 +1,28 @@
+{
+  "columns": {
+    "time": "MJD",
+    "luminosity": "Lbol_erg_s"
+  },
+  "params": {
+    "A_sh": 1.330725965664519e+43,
+    "tau_sh_days": 28.28245738854039,
+    "a": 0.47366508441964417,
+    "beta": 0.8962868756254371,
+    "t_c_MJD": 60133.85,
+    "Delta_t_days": 21.606448287056057,
+    "tau_min_days": 7.292262796576391,
+    "tau_max_days": 205.14189392365742,
+    "E0": 1e-10
+  },
+  "energies_erg": {
+    "E_tot_obs": 2.944573641337042e+50,
+    "E_immediate": 3.154422759054368e+49,
+    "E_relax": 1.0382956816804072e+49
+  },
+  "fit": {
+    "rmse": 7.778619689037208e+42,
+    "n_points": 12,
+    "success": true,
+    "message": "`xtol` termination condition is satisfied."
+  }
+}

@@ -16,25 +16,25 @@ CET/
 
 │   ├── Theoretical\_Foundation/
 
-│   └── Analysis/
+│   └── Analysis/  
 
 │
 
 ├── Tests/                      # Empirical validations
 
-│   ├── test\_1\_pantheon/
+│   ├── test\_1\_pantheon/        
 
-│   ├── test\_2\_ceers/
+│   ├── test\_2\_ceers/           
 
-│   ├── test\_3\_jades/
+│   ├── test\_3\_jades/           
 
-│   ├── test\_4\_eridanus/
+│   ├── test\_4\_eridanus/        
 
 │   ├── test\_5\_cluster\_stability/
 
-│   ├── test\_6\_quasars/
+│   ├── test\_6\_quasars/         
 
-│   ├── test\_7\_des\_dr1/
+│   ├── test\_7\_des\_dr1/         
 
 │   ├── test\_8\_gravitational\_waves/   # LOS suppression
 
@@ -42,21 +42,13 @@ CET/
 
 │   └── test\_10\_wide\_binaries/        # Instability in low-density environments (Gaia DR3)
 
-│   │    ├── data/              # Raw + processed datasets
+│        ├── data/              # Raw + processed datasets
 
-│   │    ├── scripts/           # Bootstrap + regression analyses
+│        ├── scripts/           # Bootstrap + regression analyses
 
-│   │    ├── figures/           # Output plots
+│        ├── figures/           # Output plots
 
-│   └── test\_11\_sn2023zkd/  
-
-│        ├──    data/           # Raw + processed datasets (photometry, bolometric, env. summary)
-
-│        ├── scripts/           # Cleaning, bolometric fit, color-merge, relaxation model
-
-│        └── figures/           # PNG outputs (raw vs clean, color vs bol, relax\_fit, etc.)
-
-│        
+│            
 
 │
 
@@ -82,7 +74,7 @@ Foundational Theory
 
 Empirical Tests
 
-\- Supernovae (Pantheon+)
+\- Supernovae (Pantheon+) 
 
 \- Galaxy surveys (JADES, CEERS, DES)
 
@@ -104,13 +96,13 @@ Empirical Tests
 
 
 
-Every test follows a transparent pipeline:
+Every test follows a transparent pipeline:  
 
-Data preparation → load raw catalogues, apply event/galaxy filters.
+Data preparation → load raw catalogues, apply event/galaxy filters.  
 
-Scripts → analysis with regression models (OLS/Ridge, permutation tests, bootstraps).
+Scripts → analysis with regression models (OLS/Ridge, permutation tests, bootstraps).  
 
-Outputs → figures (PNG), tables (CSV/MD), and short summaries (JSON).
+Outputs → figures (PNG), tables (CSV/MD), and short summaries (JSON).  
 
 PDF Report → full write-up in LaTeX, archived on OSF.
 
@@ -127,4 +119,6 @@ All preprints and reports are archived at OSF:
 
 This is an open research initiative exploring cosmology from first principles of tension, deformation, and thermodynamics.
 Ideas, forks, critiques, and collaborations are welcome.
+
+
 
