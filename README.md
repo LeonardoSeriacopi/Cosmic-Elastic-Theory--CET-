@@ -12,17 +12,9 @@ CET/
 
 │
 
-├── Foundations/                # Theoretical groundwork
-
-│   ├── Theoretical\_Foundation/
-
-│   └── Analysis/
-
-│
-
 ├── Tests/                      # Empirical validations
 
-│   ├── test\_1\_pantheon/
+│   ├── test\_1\_pantheon/                 # Phase transition calibration (Pantheon+)
 
 │   ├── test\_2\_ceers/
 
@@ -36,27 +28,15 @@ CET/
 
 │   ├── test\_7\_des\_dr1/
 
-│   ├── test\_8\_gravitational\_waves/   # LOS suppression
+│   ├── test\_8\_gravitational\_waves/      # LOS suppression
 
-│   ├── test\_9\_ringdown\_suppression/  # Maximum Tension
+│   ├── test\_9\_ringdown\_suppression/     # Maximum Tension
 
-│   └── test\_10\_wide\_binaries/        # Instability in low-density environments (Gaia DR3)
+│   ├── test\_10\_wide\_binaries/           # Instability in low-density environments (Gaia DR3)
 
-│   │    ├── data/              # Raw + processed datasets
+│   ├── test\_11\_sn2023zkd/               # Environmental analysis of SN 2023zkd
 
-│   │    ├── scripts/           # Bootstrap + regression analyses
-
-│   │    ├── figures/           # Output plots
-
-│   └── test\_11\_sn2023zkd/  
-
-│        ├──    data/           # Raw + processed datasets (photometry, bolometric, env. summary)
-
-│        ├── scripts/           # Cleaning, bolometric fit, color-merge, relaxation model
-
-│        └── figures/           # PNG outputs (raw vs clean, color vs bol, relax\_fit, etc.)
-
-│        
+│   └── test\_12\_pantheon\_los/            # LOS density vs Hubble residuals (Pantheon+ extended)│
 
 │
 
@@ -65,6 +45,18 @@ CET/
 ├── LICENSE\_MIT
 
 └── README.md
+
+
+
+> \*Note on Pantheon tests:\*  
+
+> The Pantheon+ sample appears in two distinct analyses.  
+
+> - \*test\_1\_pantheon/\* focused on phase-transition signatures as a way to calibrate parameters of the CET framework.  
+
+> - \*test\_12\_pantheon\_los/\* expands this approach into a broader exploration of line-of-sight (LOS) density correlations with Hubble residuals, including multiple correlation metrics, binned analyses, and redshift corrections.  
+
+> While both use the same underlying supernova dataset, the objectives and methodologies are complementary.
 
 
 
