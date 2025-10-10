@@ -1,0 +1,10 @@
+=== CET Galactic Distribution Summary ===
+Total pulsars analyzed: 39
+------------------------------------------------
+REGION
+Galactic Plane            15
+Thick Disk                12
+Inner Halo                 6
+Halo Edge / Transition     4
+Outer Halo                 2
+------------------------------------------------

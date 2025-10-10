@@ -28,9 +28,13 @@ Leonardo Sales Seriacopi (2025)
 - `test_6_sn2023zkd_event_analisys/`  
   Supernova 2023zkd event light curve and residual coupling analysis.  
 
-- `test_7_quasars_z_env/`  
+- `test_7_pulsar_nulling/`  
+  Validation of Critical Variance and Hierarchical Temporal Coupling Analysis.
+
+- `test_8_quasars_z_env/`  
   Quasar redshift–environment correlations.  
 
+- 
 - `exploratory_tests/` *(formerly `archive_tests`)*  
   Preliminary analyses and older versions of scripts kept for reference.  
 

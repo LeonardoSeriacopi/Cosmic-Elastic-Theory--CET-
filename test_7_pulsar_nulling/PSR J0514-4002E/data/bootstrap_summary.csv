@@ -1,0 +1,2 @@
+mean_period_days,std_period_days,ci_low_days,ci_high_days,n_boot
+667.8268276305666,941.9975921702616,0.12727942411116927,2000.0,300

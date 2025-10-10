@@ -1,0 +1,3 @@
+period_days,period_hours,skewness,kurtosis,classification
+0.01053,0.25272,-0.17,-1.445,harmonic
+0.0421,1.0104,-0.137,-1.312,harmonic
