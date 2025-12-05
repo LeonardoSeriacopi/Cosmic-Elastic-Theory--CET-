@@ -1,60 +1,69 @@
-# Cosmic Elastic Theory — Data and Tests
+# Cosmic Elastic Theory — Data and Empirical Tests
 
-This repository contains the data, figures, and analysis scripts supporting the paper:
+This repository contains the datasets, scripts, and figures used in the empirical evaluation of the Cosmic Elastic Theory (CET).  
+Each test examines whether the process-based dissipation model proposed in CET is compatible with publicly available astronomical observations.
 
-**Cosmic Elastic Theory: The Reinterpretation of Acceleration through the Dual Character of Cosmological Redshift, and the Recovery of General Relativity as Energy Conservation via the Principle of Geometric Buoyancy**  
-Leonardo Sales Seriacopi (2025)  
-
+The material is organized to allow full reproducibility of the analyses.
 
 ---
 
 ## Repository Structure
 
-- `test_1_pantheon_los/`  
-  Pantheon+SH0ES supernova calibration and density transition analysis.  
+### test_1_pantheon_los/
+Supernova luminosity data (Pantheon+SH0ES).  
+LOS-density reconstruction and transition analysis.
 
-- `test_2_ceers_los/`  
-  CEERS galaxies (JWST) high-$z$ test with LOS density metrics.  
+### test_2_ceers_los/
+JWST–CEERS high-z galaxies.  
+LOS environmental metrics and CET dissipation interpretation.
 
-- `test_3_gravitational_waves_los/`  
-  LIGO/Virgo GW events cross-matched with SDSS galaxies, probing LOS propagation effects.  
+### test_3_gravitational_waves_los/
+GW events (LIGO/Virgo) cross-matched with SDSS galaxies.  
+Propagation behaviour along structured environments.
 
-- `test_4_weak_lensing_dispersion/`  
-  Lensing dispersion tests with DES weak lensing data.  
+### test_4_weak_lensing_dispersion/
+DES weak-lensing variance.  
+Comparison with CET predicted dispersion scaling.
 
-- `test_5_wide_binares_estability/`  
-  Gaia DR3 wide binaries, instability index vs local environment density.  
+### test_5_wide_binares_estability/
+Gaia DR3 wide binaries.  
+Stability index vs. local density.
 
-- `test_6_sn2023zkd_event_analisys/`  
-  Supernova 2023zkd event light curve and residual coupling analysis.  
+### test_6_sn2023zkd_event_analisys/
+SN 2023zkd.  
+Light-curve reconstruction and elastic-coupling analysis.
 
-- `test_7_pulsar_nulling/`  
-  Validation of Critical Variance and Hierarchical Temporal Coupling Analysis.
+### test_7_pulsar_nulling/
+Nulling statistics in pulsars.  
+Critical variance and hierarchical temporal coupling.
 
-- `test_8_quasars_z_env/`  
-  Quasar redshift–environment correlations.  
+### test_8_quasars_z_env/
+Quasar redshift vs. environment.  
+Environmental dissipation constraints.
 
-- 
-- `exploratory_tests/` *(formerly `archive_tests`)*  
-  Preliminary analyses and older versions of scripts kept for reference.  
+### test_9_CMB/
+CMB spectral residuals (COBE/Planck/SPT).  
+Directional friction estimates, composite sky maps (WMAP/Planck), and comparison with CET dissipation scaling.
+
+### exploratory_tests/
+Older scripts and preliminary iterations.  
+Kept for traceability only.
 
 ---
 
-## How to Use
+## Usage
 
-- Each folder contains its own **figures, tables, and scripts** reproducing the results shown in the paper.  
-- Data sources (Pantheon+, DES, Gaia, CEERS, SDSS, LIGO, ATLAS/ZTF, etc.) are referenced in the paper and scripts.  
-- Scripts are primarily written in Python with standard scientific libraries.  
+Each test directory contains:
+- processed datasets (tables or arrays);  
+- figures used in the paper;  
+- Python scripts for reproducing the analysis.
+
+External datasets (Planck, WMAP, DES, Gaia, SDSS, CEERS, Pantheon+, LIGO/Virgo, etc.) are referenced in the scripts.  
+Raw CMB maps are not included due to size restrictions; official download links are provided.
 
 ---
 
 ## License
 
-This repository is distributed under **CC BY 4.0**.  
-You are free to reuse the data and scripts provided proper attribution is given.  
-
----
-
-## Citation
-
-If you use this material, please cite:
+Distributed under **CC BY 4.0**.  
+Reuse permitted with attribution.

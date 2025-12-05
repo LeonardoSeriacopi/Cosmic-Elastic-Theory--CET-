@@ -1,0 +1,15 @@
+[REF] Planck SMICA mean intensity = -9.391e-13
+[K] mean=6.884e-01, residual=0.000e+00
+[Ka] mean=2.824e-01, residual=0.000e+00
+[Q] mean=1.680e-01, residual=0.000e+00
+[V] mean=7.985e-02, residual=0.000e+00
+[W] mean=7.464e-02, residual=0.000e+00
+C:\Users\adm\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\optimize\_minpack_py.py:497: RuntimeWarning: overflow encountered in matmul
+  cov_x = invR @ invR.T
+C:\Users\adm\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\optimize\_minpack_py.py:1055: RuntimeWarning: invalid value encountered in multiply
+  pcov = pcov * s_sq
+
+--- CET Fit Results ---
+A = 2.004e-177 ± 0.000e+00
+γ = 2.000e-02 ± nan
+β = 1.50 ± nan
