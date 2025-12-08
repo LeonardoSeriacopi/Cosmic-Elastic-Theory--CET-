@@ -1,0 +1,48 @@
+PS C:\Users\adm\Desktop\CMB_2> python analyze_2mass_coldspot.py
+================================================================================
+[INFO] Lendo catálogo 2MASS recortado: 2mass.tsv
+[INFO] Linhas totais no arquivo: 472134
+[INFO] Colunas disponíveis: ['_r', '_RAJ2000', '_DEJ2000', 'RAJ2000', 'DEJ2000', 'Jmag', 'Jsnr', 'Hmag', 'Hsnr', 'Kmag', 'Ksnr', 'Qflg']
+[INFO] Linhas com RA/Dec válidos: 472132
+================================================================================
+[INFO] Calculando distância angular até o centro do Cold Spot...
+[INFO] theta_deg min/max =  0.01 – 10.00 deg
+================================================================================
+[RESULTADO] Contagens 2MASS em torno do Cold Spot
+  Fontes no DISCO  (R <= 5.0°):       113012
+  Fontes no ANEL   (5.0° < R <= 10.0°): 359120
+
+[RESULTADO] Densidades angulares
+  Área do DISCO =   78.54 deg^2
+  Área do ANEL  =  235.62 deg^2
+  Densidade DISCO = 1438.913 fontes/deg^2
+  Densidade ANEL  = 1524.153 fontes/deg^2
+
+[INFO] Calculando histogramas em Kmag (DISCO vs ANEL)...
+
+[RESULTADO] Histograma grosso em Kmag
+  Bin(Kmag)    N_disk    N_ring
+  8.0– 8.5       157      506
+  8.5– 9.0       255      733
+  9.0– 9.5       373     1153
+  9.5–10.0       541     1642
+ 10.0–10.5       840     2523
+ 10.5–11.0      1236     3555
+ 11.0–11.5      1753     5309
+ 11.5–12.0      2516     7675
+ 12.0–12.5      3429    10718
+ 12.5–13.0      4927    15180
+ 13.0–13.5      6624    20675
+ 13.5–14.0      9058    27705
+ 14.0–14.5     12220    37824
+ 14.5–15.0     18519    57236
+ 15.0–15.5     29321    91646
+ 15.5–16.0     16386    58646
+
+[INFO] Histogramas salvos em: 2mass_coldspot_hist_Kmag.txt
+
+[INFO] Catálogos recortados salvos como:
+       - 2mass_in_coldspot_disk.csv
+       - 2mass_in_coldspot_ring.csv
+
+[OK] Finalizado.

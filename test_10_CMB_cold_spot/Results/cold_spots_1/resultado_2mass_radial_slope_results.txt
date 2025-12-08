@@ -1,0 +1,76 @@
+Radial slope fits for 2MASS around CMB Cold Spot
+Cold Spot (l,b) = (209.0, -57.0) deg
+Cold Spot (RA,Dec) = (48.299908, -20.437304) deg
+Radial bins (deg): [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
+
+Model: dens(r) = rho0 + slope * r
+Units: dens in sources/deg^2; r in deg
+
+=== faixa: all ===
+  Mag cut: all K
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0    17654      12.57     1404.861    10.573
+    2.0     4.0    53891      37.70     1429.503     6.158
+    4.0     6.0    92631      62.83     1474.268     4.844
+    6.0     8.0   135686      87.96     1542.507     4.188
+    8.0    10.0   172270     113.10     1523.201     3.670
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  1398.878 ±  6.437 sources/deg^2
+    slope  =  15.707 ±  0.925 sources/deg^2/deg
+    chi2   =  94.690
+    dof    = 3
+    chi2_red =  31.563
+    p-value  =  0.000e+00
+
+=== faixa: bright ===
+  Mag cut: 8.0 <= K < 12.0
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0     1204      12.57       95.811     2.761
+    2.0     4.0     3648      37.70       96.766     1.602
+    4.0     6.0     6152      62.83       97.912     1.248
+    6.0     8.0     8572      87.96       97.448     1.053
+    8.0    10.0    11191     113.10       98.950     0.935
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  95.737 ±  1.668 sources/deg^2
+    slope  =  0.333 ±  0.239 sources/deg^2/deg
+    chi2   =  0.576
+    dof    = 3
+    chi2_red =  0.192
+    p-value  =  9.019e-01
+
+=== faixa: mid ===
+  Mag cut: 12.0 <= K < 14.0
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0     3906      12.57      310.830     4.973
+    2.0     4.0    11483      37.70      304.596     2.842
+    4.0     6.0    19477      62.83      309.986     2.221
+    6.0     8.0    27631      87.96      314.115     1.890
+    8.0    10.0    35819     113.10      316.709     1.673
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  302.708 ±  2.977 sources/deg^2
+    slope  =  1.550 ±  0.427 sources/deg^2/deg
+    chi2   =  2.823
+    dof    = 3
+    chi2_red =  0.941
+    p-value  =  4.197e-01
+
+=== faixa: faint ===
+  Mag cut: 14.0 <= K < 16.0
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0    11890      12.57      946.176     8.677
+    2.0     4.0    36366      37.70      964.638     5.058
+    4.0     6.0    62873      62.83     1000.655     3.991
+    6.0     8.0    92805      87.96     1055.027     3.463
+    8.0    10.0   117819     113.10     1041.749     3.035
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  939.063 ±  5.294 sources/deg^2
+    slope  =  12.856 ±  0.762 sources/deg^2/deg
+    chi2   =  82.129
+    dof    = 3
+    chi2_red =  27.376
+    p-value  =  0.000e+00
+

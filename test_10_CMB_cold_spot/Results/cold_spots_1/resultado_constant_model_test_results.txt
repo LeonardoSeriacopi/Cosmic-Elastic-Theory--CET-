@@ -1,0 +1,22 @@
+PS C:\Users\adm\Desktop\CMB_2> python test_constant_model_2mass.py
+=========================================================
+[INFO] Lendo catálogo 2MASS recortado: 2mass.tsv
+[INFO] Linhas com RA/Dec válidos: 472132
+[INFO] θ min/max: 0.01 – 10.00 deg
+=========================================================
+[INFO] Montando perfil radial...
+ Bin 0.0–2.0 deg | N= 17654 | dens= 1404.86 | σ= 10.57
+ Bin 2.0–4.0 deg | N= 53891 | dens= 1429.50 | σ=  6.16
+ Bin 4.0–6.0 deg | N= 92631 | dens= 1474.27 | σ=  4.84
+ Bin 6.0–8.0 deg | N=135686 | dens= 1542.51 | σ=  4.19
+ Bin 8.0–10.0 deg | N=172270 | dens= 1523.20 | σ=  3.67
+=========================================================
+[INFO] Ajustando modelo de densidade constante...
+[RESULT] Densidade constante ajustada = 1501.625 fontes/deg²
+=========================================================
+[RESULTADOS ESTATÍSTICOS]
+ χ² total           = 382.704
+ χ² reduzido        = 95.676
+ Graus de liberdade = 4
+ p-value            = 0.00000
+=========================================================

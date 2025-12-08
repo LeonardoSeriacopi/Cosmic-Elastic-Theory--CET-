@@ -1,0 +1,46 @@
+Random Cold Spots test around the SECOND CMB Cold Spot (2MASS cutout)
+-------------------------------------------------------------------
+
+Input catalog : 2mass.tsv
+Cold Spot (RA,Dec) = (49.3442, -19.7679) deg
+Radial bins (deg)  : [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
+Kmag range         : [8.0, 16.0]
+
+Observed radial profile (Cold Spot):
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00    17122      12.57      1362.525    10.413
+  2.00    4.00    53054      37.70      1407.301     6.110
+  4.00    6.00    89871      62.83      1430.341     4.771
+  6.00    8.00   132088      87.96      1501.604     4.132
+  8.00   10.00   127925     113.10      1131.105     3.162
+
+Constant-density fit (LCDM-like baseline):
+  rho0_const     = 1317.187 sources/deg^2
+  chi2_const     = 6253.478
+  chi2_red_const = 1563.370
+  dof_const      = 4
+
+Linear fit dens(r) = a + b r (Cold Spot):
+  a_obs          = 1620.960 +/- 6.242
+  b_obs          = -44.746 +/- 0.869
+  significance_b = -51.52 sigma
+  chi2_linear    = 3599.226
+  chi2_red_lin   = 1199.742
+  dof_linear     = 3
+
+Monte Carlo summary (random centers within the same 2MASS cutout):
+  N_SIM requested = 5000
+  N_SIM valid     = 5000
+  N_SIM discarded = 0
+
+Monte Carlo distribution of slopes b:
+  mean(b_sim)    = -83.371
+  std(b_sim)     = 31.607
+  b_obs          = -44.746
+  p_mc_slope     = 1.492e-01
+
+Monte Carlo distribution of chi2_const:
+  mean(chi2_sim) = 15410.535
+  std(chi2_sim)  = 8102.049
+  chi2_const_obs = 6253.478
+  p_mc_chi2      = 8.210e-01

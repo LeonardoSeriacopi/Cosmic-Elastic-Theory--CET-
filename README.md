@@ -41,9 +41,13 @@ Critical variance and hierarchical temporal coupling.
 Quasar redshift vs. environment.  
 Environmental dissipation constraints.
 
-### test_9_CMB/
+### test_9_CMB_residuals/
 CMB spectral residuals (COBE/Planck/SPT).  
 Directional friction estimates, composite sky maps (WMAP/Planck), and comparison with CET dissipation scaling.
+
+### **test_10_CMB_cold_spot/**
+CMB Cold Spot and internal secondary minimum (CS1/CS2).  
+2MASS galaxy-density analysis, 2D residual maps, multi-frequency WMAP/Planck temperature measurements, and structural interpretation under CET dissipation.
 
 ### exploratory_tests/
 Older scripts and preliminary iterations.  

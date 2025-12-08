@@ -1,0 +1,22 @@
+# Radial density profile: CMB Cold Spot vs average random centers
+# Input catalog: 2mass.tsv
+# Cold Spot (RA,Dec) = (48.2999, -20.4373) deg
+# Radial bins [deg]: 0.0, 2.0, 4.0, 6.0, 8.0, 10.0
+# Kmag range: [8.0, 16.0]
+# N_MC random centers: 1000
+#
+# Columns:
+# r_in  r_out  r_mid  N_obs  area_deg2  dens_obs  sigma_obs  dens_rand_mean  dens_rand_std
+ 0.00   2.00   1.00    17000     12.566   1352.817     10.376   1105.405    474.402
+ 2.00   4.00   3.00    51497     37.699   1366.000      6.019   1013.187    381.824
+ 4.00   6.00   5.00    88503     62.832   1408.569      4.735    879.278    321.126
+ 6.00   8.00   7.00   129006     87.965   1466.567      4.083    739.704    261.127
+ 8.00  10.00   9.00   164830    113.097   1457.417      3.590    603.210    151.166
+#
+# Linear fit (observed Cold Spot): dens_obs(r) = a_obs + b_obs * r
+# a_obs = 1337.752 ± 6.299  sources/deg^2
+# b_obs = 14.714 ± 0.906  sources/deg^2/deg
+#
+# Linear fit (mean random profile): dens_rand(r) = a_rand + b_rand * r
+# a_rand = 1198.658 ± 345.911  sources/deg^2
+# b_rand = -65.914 ± 45.593  sources/deg^2/deg

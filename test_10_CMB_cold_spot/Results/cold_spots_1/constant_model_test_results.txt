@@ -1,0 +1,9 @@
+Teste do modelo de densidade constante
+=======================================
+Densidade constante ajustada: 1501.625
+chi2 total: 382.704
+chi2 reduzido: 95.676
+Graus de liberdade: 4
+p-value: 0.000000
+
+PERFIL RADIAL USADO:

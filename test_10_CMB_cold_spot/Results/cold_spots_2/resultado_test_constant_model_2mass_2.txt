@@ -1,0 +1,14 @@
+Teste do modelo de densidade constante (SEGUNDO Cold Spot)
+===========================================================
+Densidade constante ajustada: 1379.130
+chi2 total: 6737.666
+chi2 reduzido: 1684.417
+Graus de liberdade: 4
+p-value: 0.000000
+
+PERFIL RADIAL USADO:
+Bin 0.0–2.0 deg: dens=1413.773, sigma=10.607, N=17766
+Bin 2.0–4.0 deg: dens=1471.441, sigma=6.247, N=55472
+Bin 4.0–6.0 deg: dens=1498.667, sigma=4.884, N=94164
+Bin 6.0–8.0 deg: dens=1578.521, sigma=4.236, N=138854
+Bin 8.0–10.0 deg: dens=1182.592, sigma=3.234, N=133748

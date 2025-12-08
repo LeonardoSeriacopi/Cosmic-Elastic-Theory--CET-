@@ -1,0 +1,8 @@
+[INFO] Lendo catálogo: 2mass.tsv
+[INFO] Linhas totais: 472134
+[INFO] theta range: 0.02 – 12.50 deg
+[INFO] inclinação observada b = -105.07574116382602
+[INFO] Rodando Monte Carlo...
+[RESULT] b_obs = -105.07574116382602
+[RESULT] p_mc_slope = 0.0
+[RESULT] p_mc_chi2 = 0.0

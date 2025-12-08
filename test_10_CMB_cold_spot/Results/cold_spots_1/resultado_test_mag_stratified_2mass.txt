@@ -1,0 +1,54 @@
+Mag-stratified radial density test around the CMB Cold Spot
+Input catalog : 2mass.tsv
+Cold Spot (l,b) = (209.0, -57.0) deg
+Radial bins (deg): [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
+Magnitude bins (Kmag):
+  bright: 8.0 <= K < 12.0
+  mid: 12.0 <= K < 14.0
+  faint: 14.0 <= K < 16.0
+
+=== Faixa bright: 8.0 <= K < 12.0 ===
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00     1204       12.57        95.811       2.761
+  2.00    4.00     3648       37.70        96.766       1.602
+  4.00    6.00     6152       62.83        97.912       1.248
+  6.00    8.00     8572       87.96        97.448       1.053
+  8.00   10.00    11191      113.10        98.950       0.935
+
+[Constant density fit]
+rho0 = 97.926 sources/deg^2
+chi2 = 2.516
+chi2_red = 0.629
+dof = 4
+p_value = 6.418e-01
+
+=== Faixa mid: 12.0 <= K < 14.0 ===
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00     3906       12.57       310.830       4.973
+  2.00    4.00    11483       37.70       304.596       2.842
+  4.00    6.00    19477       62.83       309.986       2.221
+  6.00    8.00    27631       87.96       314.115       1.890
+  8.00   10.00    35819      113.10       316.709       1.673
+
+[Constant density fit]
+rho0 = 312.899 sources/deg^2
+chi2 = 16.025
+chi2_red = 4.006
+dof = 4
+p_value = 2.986e-03
+
+=== Faixa faint: 14.0 <= K < 16.0 ===
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00    11890       12.57       946.176       8.677
+  2.00    4.00    36366       37.70       964.638       5.058
+  4.00    6.00    62873       62.83      1000.655       3.991
+  6.00    8.00    92805       87.96      1055.027       3.463
+  8.00   10.00   117819      113.10      1041.749       3.035
+
+[Constant density fit]
+rho0 = 1023.005 sources/deg^2
+chi2 = 366.533
+chi2_red = 91.633
+dof = 4
+p_value = 0.000e+00
+

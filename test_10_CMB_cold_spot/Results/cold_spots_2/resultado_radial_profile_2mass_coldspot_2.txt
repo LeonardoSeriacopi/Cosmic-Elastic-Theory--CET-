@@ -1,0 +1,17 @@
+================================================================================
+[INFO] Lendo catálogo 2MASS recortado: 2mass.tsv
+[INFO] Linhas totais no arquivo: 472134
+[INFO] Linhas com RA/Dec válidos após limpeza: 472132
+[INFO] Centro do SEGUNDO Cold Spot:
+  Galáctico: l = 208.4349 deg, b = -55.8545 deg
+  ICRS/J2000: RA = 49.3442 deg, Dec = -19.7679 deg
+[INFO] Calculando distâncias angulares...
+[INFO] theta_deg min/max: 0.00 – 11.19
+
+[RESULTADO] Perfil radial (SEGUNDO Cold Spot)
+ r_in  r_out   N     area      dens       sigma
+  0.0   2.0   17766     12.57    1413.77      10.61
+  2.0   4.0   55472     37.70    1471.44       6.25
+  4.0   6.0   94164     62.83    1498.67       4.88
+  6.0   8.0  138854     87.96    1578.52       4.24
+  8.0  10.0  133748    113.10    1182.59       3.23

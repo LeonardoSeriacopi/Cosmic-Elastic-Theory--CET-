@@ -1,0 +1,15 @@
+PS C:\Users\adm\Desktop\CMB_2> python radial_profile_2mass_coldspot.py
+================================================================================
+[INFO] Lendo catálogo 2MASS recortado: 2mass.tsv
+[INFO] Linhas totais no arquivo: 472134
+[INFO] Linhas com RA/Dec válidos após limpeza: 472132
+[INFO] Calculando distâncias angulares...
+[INFO] theta_deg min/max: 0.01 – 10.00
+
+[RESULTADO] Perfil radial
+ r_in  r_out   N     area      dens       sigma
+  0.0   2.0   17654     12.57    1404.86      10.57
+  2.0   4.0   53891     37.70    1429.50       6.16
+  4.0   6.0   92632     62.83    1474.28       4.84
+  6.0   8.0  135684     87.96    1542.48       4.19
+  8.0  10.0  172271    113.10    1523.21       3.67

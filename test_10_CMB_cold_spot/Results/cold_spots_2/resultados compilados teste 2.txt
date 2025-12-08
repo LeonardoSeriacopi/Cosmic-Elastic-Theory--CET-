@@ -1,0 +1,282 @@
+  Galáctico: l = 208.4349 deg, b = -55.8545 deg
+  ICRS/J2000: RA = 49.3442 deg, Dec = -19.7679 deg
+[INFO] Calculando distâncias angulares...
+[INFO] theta_deg min/max: 0.00 – 11.19
+
+# Kmag_bin_low  Kmag_bin_high  N_disk  N_ring
+8.00 8.50 147 471
+8.50 9.00 253 666
+9.00 9.50 391 1038
+9.50 10.00 547 1449
+10.00 10.50 851 2263
+10.50 11.00 1241 3217
+11.00 11.50 1775 4792
+11.50 12.00 2514 6950
+12.00 12.50 3509 9621
+12.50 13.00 5081 13624
+13.00 13.50 6857 18541
+13.50 14.00 9259 24987
+14.00 14.50 12462 34220
+14.50 15.00 18890 51574
+15.00 15.50 29779 82776
+15.50 16.00 16883 53472
+
+
+[RESULTADO] Perfil radial (SEGUNDO Cold Spot)
+ r_in  r_out   N     area      dens       sigma
+  0.0   2.0   17766     12.57    1413.77      10.61
+  2.0   4.0   55472     37.70    1471.44       6.25
+  4.0   6.0   94164     62.83    1498.67       4.88
+  6.0   8.0  138854     87.96    1578.52       4.24
+  8.0  10.0  133748    113.10    1182.59       3.23
+
+
+Densidade constante ajustada: 1379.130
+chi2 total: 6737.666
+chi2 reduzido: 1684.417
+Graus de liberdade: 4
+p-value: 0.000000
+
+PERFIL RADIAL USADO:
+Bin 0.0–2.0 deg: dens=1413.773, sigma=10.607, N=17766
+Bin 2.0–4.0 deg: dens=1471.441, sigma=6.247, N=55472
+Bin 4.0–6.0 deg: dens=1498.667, sigma=4.884, N=94164
+Bin 6.0–8.0 deg: dens=1578.521, sigma=4.236, N=138854
+Bin 8.0–10.0 deg: dens=1182.592, sigma=3.234, N=133748
+
+Mag-stratified radial density test around the SECOND CMB Cold Spot
+Input catalog : 2mass.tsv
+Cold Spot (l,b) = (208.4349, -55.8545) deg
+Radial bins (deg): [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
+Magnitude bins (Kmag):
+  bright: 8.0 <= K < 12.0
+  mid: 12.0 <= K < 14.0
+  faint: 14.0 <= K < 16.0
+
+=== Faixa bright: 8.0 <= K < 12.0 ===
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00     1221       12.57        97.164       2.781
+  2.00    4.00     3689       37.70        97.854       1.611
+  4.00    6.00     6211       62.83        98.851       1.254
+  6.00    8.00     8713       87.96        99.051       1.061
+  8.00   10.00     8731      113.10        77.199       0.826
+
+[Constant density fit]
+rho0 = 89.675 sources/deg^2
+chi2 = 392.648
+chi2_red = 98.162
+dof = 4
+p_value = 0.000e+00
+
+=== Faixa mid: 12.0 <= K < 14.0 ===
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00     3978       12.57       316.559       5.019
+  2.00    4.00    11702       37.70       310.405       2.869
+  4.00    6.00    19896       62.83       316.655       2.245
+  6.00    8.00    27870       87.96       316.832       1.898
+  8.00   10.00    28033      113.10       247.866       1.480
+
+[Constant density fit]
+rho0 = 287.299 sources/deg^2
+chi2 = 1221.476
+chi2_red = 305.369
+dof = 4
+p_value = 0.000e+00
+
+=== Faixa faint: 14.0 <= K < 16.0 ===
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00    11923       12.57       948.802       8.689
+  2.00    4.00    37663       37.70       999.042       5.148
+  4.00    6.00    63764       62.83      1014.836       4.019
+  6.00    8.00    95504       87.96      1085.710       3.513
+  8.00   10.00    91162      113.10       806.049       2.670
+
+[Constant density fit]
+rho0 = 939.966 sources/deg^2
+chi2 = 4717.048
+chi2_red = 1179.262
+dof = 4
+p_value = 0.000e+00
+
+Kmag range used : [8.0, 16.0]
+
+Radial profile (all K in range):
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00    17122        12.566      1362.525    10.413
+  2.00    4.00    53054        37.699      1407.301     6.110
+  4.00    6.00    89871        62.832      1430.341     4.771
+  6.00    8.00   132087        87.965      1501.593     4.132
+  8.00   10.00   127926       113.097      1131.114     3.162
+
+Constant density model (LCDM-like baseline):
+  rho0_const       = 1317.189 sources/deg^2
+  chi2_const       = 6252.891
+  chi2_red_const   = 1563.223
+  dof_const        = 4
+  p_value_const    = 0.000e+00
+
+Linear model: density(r) = a + b * r
+  a (intercepto)   = 1620.951 +/- 6.242 sources/deg^2
+  b (inclinação)   = -44.745 +/- 0.869 sources/deg^2/deg
+  significancia_b  = -51.52 sigma
+  chi2_linear      = 3598.824
+  chi2_red_linear  = 1199.608
+  dof_linear       = 3
+  p_value_linear   = 0.000e+00
+
+Model comparison (constant vs linear):
+  delta_chi2       = 2654.067
+  delta_dof        = 1
+  p_value_delta    = 0.000e+00
+
+
+[INFO] Linhas totais: 472134
+[INFO] theta range: 0.02 – 12.50 deg
+[INFO] inclinação observada b = -105.07574116382602
+[INFO] Rodando Monte Carlo...
+[RESULT] b_obs = -105.07574116382602
+[RESULT] p_mc_slope = 0.0
+[RESULT] p_mc_chi2 = 0.0
+
+Random Cold Spots test around the SECOND CMB Cold Spot (2MASS cutout)
+-------------------------------------------------------------------
+
+Input catalog : 2mass.tsv
+Cold Spot (RA,Dec) = (49.3442, -19.7679) deg
+Radial bins (deg)  : [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
+Kmag range         : [8.0, 16.0]
+
+Observed radial profile (Cold Spot):
+Bin_r_in  Bin_r_out   N      area_deg2    dens[1/deg2]   sigma
+  0.00    2.00    17122      12.57      1362.525    10.413
+  2.00    4.00    53054      37.70      1407.301     6.110
+  4.00    6.00    89871      62.83      1430.341     4.771
+  6.00    8.00   132088      87.96      1501.604     4.132
+  8.00   10.00   127925     113.10      1131.105     3.162
+
+Constant-density fit (LCDM-like baseline):
+  rho0_const     = 1317.187 sources/deg^2
+  chi2_const     = 6253.478
+  chi2_red_const = 1563.370
+  dof_const      = 4
+
+Linear fit dens(r) = a + b r (Cold Spot):
+  a_obs          = 1620.960 +/- 6.242
+  b_obs          = -44.746 +/- 0.869
+  significance_b = -51.52 sigma
+  chi2_linear    = 3599.226
+  chi2_red_lin   = 1199.742
+  dof_linear     = 3
+
+Monte Carlo summary (random centers within the same 2MASS cutout):
+  N_SIM requested = 5000
+  N_SIM valid     = 5000
+  N_SIM discarded = 0
+
+Monte Carlo distribution of slopes b:
+  mean(b_sim)    = -83.371
+  std(b_sim)     = 31.607
+  b_obs          = -44.746
+  p_mc_slope     = 1.492e-01
+
+Monte Carlo distribution of chi2_const:
+  mean(chi2_sim) = 15410.535
+  std(chi2_sim)  = 8102.049
+  chi2_const_obs = 6253.478
+  p_mc_chi2      = 8.210e-01
+
+
+# Radial density profile: 2nd CMB Cold Spot vs average random centers
+# Input catalog: 2mass.tsv
+# Cold Spot 2 (RA,Dec) = (49.7550, -18.3500) deg
+# Radial bins [deg]: 0.0, 2.0, 4.0, 6.0, 8.0, 10.0
+# Kmag range: [8.0, 16.0]
+# N_MC random centers: 1000
+#
+# Columns:
+# r_in  r_out  r_mid  N_obs  area_deg2  dens_obs  sigma_obs  dens_rand_mean  dens_rand_std
+ 0.00   2.00   1.00    17402     12.566   1384.807     10.498   1105.405    474.402
+ 2.00   4.00   3.00    54298     37.699   1440.299      6.181   1013.187    381.824
+ 4.00   6.00   5.00    91449     62.832   1455.456      4.813    879.278    321.126
+ 6.00   8.00   7.00   125643     87.965   1428.336      4.030    739.704    261.127
+ 8.00  10.00   9.00    95015    113.097    840.117      2.725    603.210    151.166
+#
+# Linear fit (observed 2nd Cold Spot): dens_obs(r) = a_obs + b_obs * r
+# a_obs = 1888.577 ± 6.178  sources/deg^2
+# b_obs = -105.076 ± 0.829  sources/deg^2/deg
+#
+# Linear fit (mean random profile): dens_rand(r) = a_rand + b_rand * r
+# a_rand = 1198.658 ± 345.911  sources/deg^2
+# b_rand = -65.914 ± 45.593  sources/deg^2/deg
+
+
+Model: dens(r) = rho0 + slope * r
+Units: dens in sources/deg^2; r in deg
+
+=== faixa: all ===
+  Mag cut: all K
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0    17766      12.57     1413.773    10.607
+    2.0     4.0    55472      37.70     1471.441     6.247
+    4.0     6.0    94164      62.83     1498.667     4.884
+    6.0     8.0   138854      87.96     1578.521     4.236
+    8.0    10.0   133748     113.10     1182.592     3.234
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  1694.075 ±  6.377 sources/deg^2
+    slope  = -46.400 ±  0.887 sources/deg^2/deg
+    chi2   =  4003.619
+    dof    = 3
+    chi2_red =  1334.540
+    p-value  =  0.000e+00
+
+=== faixa: bright ===
+  Mag cut: 8.0 <= K < 12.0
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0     1221      12.57       97.164     2.781
+    2.0     4.0     3689      37.70       97.854     1.611
+    4.0     6.0     6211      62.83       98.851     1.254
+    6.0     8.0     8713      87.96       99.051     1.061
+    8.0    10.0     8731     113.10       77.199     0.826
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  113.442 ±  1.648 sources/deg^2
+    slope  = -3.489 ±  0.229 sources/deg^2/deg
+    chi2   =  160.163
+    dof    = 3
+    chi2_red =  53.388
+    p-value  =  0.000e+00
+
+=== faixa: mid ===
+  Mag cut: 12.0 <= K < 14.0
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0     3978      12.57      316.559     5.019
+    2.0     4.0    11702      37.70      310.405     2.869
+    4.0     6.0    19896      62.83      316.655     2.245
+    6.0     8.0    27870      87.96      316.832     1.898
+    8.0    10.0    28033     113.10      247.866     1.480
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  362.619 ±  2.951 sources/deg^2
+    slope  = -11.061 ±  0.410 sources/deg^2/deg
+    chi2   =  493.338
+    dof    = 3
+    chi2_red =  164.446
+    p-value  =  0.000e+00
+
+=== faixa: faint ===
+  Mag cut: 14.0 <= K < 16.0
+  Bin_r_in  Bin_r_out   N     area_deg2    dens[1/deg2]   sigma
+    0.0     2.0    11923      12.57      948.802     8.689
+    2.0     4.0    37663      37.70      999.042     5.148
+    4.0     6.0    63764      62.83     1014.836     4.019
+    6.0     8.0    95504      87.96     1085.710     3.513
+    8.0    10.0    91162     113.10      806.049     2.670
+
+  [Fit dens(r) = rho0 + slope * r]
+    rho0   =  1144.345 ±  5.247 sources/deg^2
+    slope  = -30.146 ±  0.731 sources/deg^2/deg
+    chi2   =  3014.729
+    dof    = 3
+    chi2_red =  1004.910
+    p-value  =  0.000e+00

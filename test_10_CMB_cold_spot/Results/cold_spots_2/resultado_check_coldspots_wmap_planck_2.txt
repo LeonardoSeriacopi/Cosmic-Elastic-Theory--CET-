@@ -1,0 +1,123 @@
+[INFO] Checando sinal de temperatura nos dois cold spots
+       usando mapas WMAP e Planck (HEALPix, sem healpy).
+========================================================================
+========================================================================
+[INFO] Mapa: WMAP_K  (wmap_band_imap_r9_9yr_K_v5.fits)
+[INFO] npix=3145728, NSIDE=512, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=2670342,  T = -0.164485  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.118743   (Npix=243)
+  Média em disco R=2.0° :  T = -0.103705   (Npix=959)
+  Média em disco R=5.0° :  T = -0.0440899   (Npix=5987)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=2670490,  T = -0.148679  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.133112   (Npix=240)
+  Média em disco R=2.0° :  T = -0.106917   (Npix=951)
+  Média em disco R=5.0° :  T = -0.0338257   (Npix=5988)
+========================================================================
+[INFO] Mapa: WMAP_Ka  (wmap_band_imap_r9_9yr_Ka_v5.fits)
+[INFO] npix=3145728, NSIDE=512, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=2670342,  T = -0.193781  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.147711   (Npix=243)
+  Média em disco R=2.0° :  T = -0.13265   (Npix=959)
+  Média em disco R=5.0° :  T = -0.082992   (Npix=5987)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=2670490,  T = -0.115423  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.157478   (Npix=240)
+  Média em disco R=2.0° :  T = -0.135511   (Npix=951)
+  Média em disco R=5.0° :  T = -0.0751972   (Npix=5988)
+========================================================================
+[INFO] Mapa: WMAP_Q  (wmap_band_imap_r9_9yr_Q_v5.fits)
+[INFO] npix=3145728, NSIDE=512, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=2670342,  T = -0.175255  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.149887   (Npix=243)
+  Média em disco R=2.0° :  T = -0.138603   (Npix=959)
+  Média em disco R=5.0° :  T = -0.0953222   (Npix=5987)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=2670490,  T = -0.225386  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.168405   (Npix=240)
+  Média em disco R=2.0° :  T = -0.144483   (Npix=951)
+  Média em disco R=5.0° :  T = -0.0880231   (Npix=5988)
+========================================================================
+[INFO] Mapa: WMAP_V  (wmap_band_imap_r9_9yr_V_v5.fits)
+[INFO] npix=3145728, NSIDE=512, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=2670342,  T = -0.267961  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.153816   (Npix=243)
+  Média em disco R=2.0° :  T = -0.142345   (Npix=959)
+  Média em disco R=5.0° :  T = -0.102446   (Npix=5987)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=2670490,  T = -0.187269  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.169146   (Npix=240)
+  Média em disco R=2.0° :  T = -0.146642   (Npix=951)
+  Média em disco R=5.0° :  T = -0.095337   (Npix=5988)
+========================================================================
+[INFO] Mapa: WMAP_W  (wmap_band_imap_r9_9yr_W_v5.fits)
+[INFO] npix=3145728, NSIDE=512, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=2670342,  T = -0.191379  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.151256   (Npix=243)
+  Média em disco R=2.0° :  T = -0.141156   (Npix=959)
+  Média em disco R=5.0° :  T = -0.10315   (Npix=5987)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=2670490,  T = -0.224344  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.164952   (Npix=240)
+  Média em disco R=2.0° :  T = -0.146659   (Npix=951)
+  Média em disco R=5.0° :  T = -0.0951193   (Npix=5988)
+========================================================================
+[INFO] Mapa: Planck_30  (LFI_SkyMap_030_1024_R3.00_full.fits)
+[INFO] npix=12582912, NSIDE=1024, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=10681369,  T = -0.000299272  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.000147561   (Npix=954)
+  Média em disco R=2.0° :  T = -0.000136669   (Npix=3831)
+  Média em disco R=5.0° :  T = -8.56731e-05   (Npix=23943)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=10681962,  T = -0.000134738  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.000164136   (Npix=959)
+  Média em disco R=2.0° :  T = -0.00013753   (Npix=3840)
+  Média em disco R=5.0° :  T = -7.66197e-05   (Npix=23930)
+========================================================================
+[INFO] Mapa: Planck_44  (LFI_SkyMap_044_1024_R3.00_full.fits)
+[INFO] npix=12582912, NSIDE=1024, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=10681369,  T = -9.61968e-05  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.000141397   (Npix=954)
+  Média em disco R=2.0° :  T = -0.000127196   (Npix=3831)
+  Média em disco R=5.0° :  T = -8.5294e-05   (Npix=23943)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=10681962,  T = -0.000263418  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.000157709   (Npix=959)
+  Média em disco R=2.0° :  T = -0.000132023   (Npix=3840)
+  Média em disco R=5.0° :  T = -7.7901e-05   (Npix=23930)
+========================================================================
+[INFO] Mapa: Planck_70  (LFI_SkyMap_070_1024_R3.00_full.fits)
+[INFO] npix=12582912, NSIDE=1024, ORDERING=NESTED
+
+[COLD SPOT: CS1_main]  (l=209.0000 deg, b=-57.0000 deg)
+  Pixel central: index=10681369,  T = -0.0001992  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.000134872   (Npix=954)
+  Média em disco R=2.0° :  T = -0.00012567   (Npix=3831)
+  Média em disco R=5.0° :  T = -8.5267e-05   (Npix=23943)
+
+[COLD SPOT: CS2_second]  (l=208.4349 deg, b=-55.8545 deg)
+  Pixel central: index=10681962,  T = -0.000151916  (unidades do mapa)
+  Média em disco R=1.0° :  T = -0.000159037   (Npix=959)
+  Média em disco R=2.0° :  T = -0.000129834   (Npix=3840)
+  Média em disco R=5.0° :  T = -7.78874e-05   (Npix=23930)

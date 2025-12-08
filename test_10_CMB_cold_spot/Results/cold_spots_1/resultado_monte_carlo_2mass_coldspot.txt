@@ -1,0 +1,39 @@
+Monte Carlo radial density test around the CMB Cold Spot
+Input catalog : 2mass.tsv
+Cold Spot center (RA,Dec) = (48.2999, -20.4373) deg
+Radial bins (deg): [0.0, 2.0, 4.0, 6.0, 8.0, 10.0]
+Kmag range: [8.0, 16.0]
+
+Observed radial profile:
+r_in_deg r_out_deg N area_deg2 density sigma
+0.00 2.00 17000 12.56637 1352.81702 10.37563
+2.00 4.00 51497 37.69911 1366.00035 6.01949
+4.00 6.00 88503 62.83185 1408.56899 4.73477
+6.00 8.00 129006 87.96459 1466.56733 4.08317
+8.00 10.00 164830 113.09734 1457.41718 3.58976
+
+Constant model fit:
+rho0_const = 1434.024703
+chi2_const = 323.852721
+chi2_red_const = 80.963180
+dof_const = 4
+p_value_const = 7.731549e-69
+
+Linear model fit (density = a + b * r):
+a = 1337.751783 ± 6.299384
+b = 14.714095 ± 0.905715
+significance_b = 16.246 sigma
+chi2_linear = 59.925889
+chi2_red_linear = 19.975296
+dof_linear = 3
+p_value_linear = 6.096489e-13
+
+Monte Carlo summary (N_SIM = 10000):
+mean_b_sim = -0.005882
+std_b_sim  = 0.914023
+b_obs      = 14.714095
+p_mc_slope = 0.000000e+00
+mean_chi2_sim = 5.059573
+std_chi2_sim  = 3.219906
+chi2_const_obs = 323.852721
+p_mc_chi2 = 0.000000e+00
