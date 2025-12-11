@@ -1,0 +1,27 @@
+Objects in z-range [0.03, 0.70]: (320208, 10)
+
+Total objects used in robustness test: N = 320208
+Calibrated CET distance factor: A_cet = 4084.557 Mpc per unit z_kin
+
+Running Monte Carlo with N_REAL = 500, σ_z = 5.0e-04, σ_env_frac = 0.03
+  MC realization 50/500 completed
+  MC realization 100/500 completed
+  MC realization 150/500 completed
+  MC realization 200/500 completed
+  MC realization 250/500 completed
+  MC realization 300/500 completed
+  MC realization 350/500 completed
+  MC realization 400/500 completed
+  MC realization 450/500 completed
+  MC realization 500/500 completed
+
+=== CET robustness result (realistic noise) ===
+Global RMD(DeltaD) between reference and MC mean:
+  RMD_global = 0.4034 (40.34%)
+
+Robustness table saved to: sdss_desi_cet_robustness\DeltaD_robustness_MC.csv
+Robustness plot saved to: sdss_desi_cet_robustness\CET_robustness_band.png
+
+=== ANALYSIS COMPLETE ===
+All robustness outputs written to folder: sdss_desi_cet_robustness
+Global RMD = 40.34%

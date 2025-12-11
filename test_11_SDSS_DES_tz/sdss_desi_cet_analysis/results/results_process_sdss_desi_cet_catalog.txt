@@ -1,0 +1,47 @@
+Loading CET catalog: sdss_desi_cet_catalog.csv
+Objects in z-range [0.03, 0.7]: (320208, 10)
+After removing NaN ΔD entries: (320208, 10)
+
+=== GLOBAL CET STATISTICS ===
+  N objects          = 320208
+  <z>                = 0.3686
+  median(z)          = 0.3570
+  <z_diss>           = 0.0369
+  <z_kin>            = 0.3317
+  <ΔD> [Mpc]         = 129.27
+  median(ΔD)         = 131.99
+  min(ΔD)            = 13.11
+  max(ΔD)            = 212.87
+  corr(z, ΔD)        = 0.9944
+
+=== SURVEY-WISE STATISTICS ===
+
+Survey: DESI
+  N                   = 191264
+  <z>                 = 0.2966
+  median(z)           = 0.2657
+  <ΔD> [Mpc]          = 108.14
+  median(ΔD)          = 103.22
+  min(ΔD)             = 13.11
+  max(ΔD)             = 212.87
+  corr(z, ΔD)         = 0.9935
+
+Survey: SDSS
+  N                   = 128944
+  <z>                 = 0.4754
+  median(z)           = 0.5054
+  <ΔD> [Mpc]          = 160.62
+  median(ΔD)          = 171.91
+  min(ΔD)             = 13.12
+  max(ΔD)             = 212.86
+  corr(z, ΔD)         = 0.9930
+
+Computing binned ⟨ΔD⟩(z)...
+Binned ΔD table saved to: sdss_desi_cet_analysis\DeltaD_binned.csv
+Saved: sdss_desi_cet_analysis\hist_DeltaD.png
+Saved: sdss_desi_cet_analysis\DeltaD_vs_z.png
+Saved: sdss_desi_cet_analysis\DCET_vs_DLCDM.png
+
+=== ANALYSIS COMPLETE ===
+All outputs written to folder: sdss_desi_cet_analysis
+PS C:\Users\adm\Desktop\sdss_desi\sdss_desi_cet_outputs_2>
