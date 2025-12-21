@@ -53,6 +53,10 @@ CMB Cold Spot and internal secondary minimum (CS1/CS2).
 **SDSS/DESI Dissipation Curve and Kinematic Acceleration.**
 **Empirical validation of the Universal Dissipation Curve (UDC) and its derivatives, proving the emergence of the Decaying Kinematic Impulse ($a_{\text{kin}}$) in the Transition Zone (TZ).**
 
+###test_12_jades-los-freedman
+**JADES Dissipation Curve and Saturated Regime**
+**Empirical validation of the saturating dissipation model at High Redshift and the Role of BAO--Freedman Density Homogenization.**
+
 ### exploratory_tests/
 Older scripts and preliminary iterations.
 Kept for traceability only.
