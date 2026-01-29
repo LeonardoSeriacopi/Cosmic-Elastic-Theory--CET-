@@ -1,0 +1,6 @@
+PS D:\campo volumetrico\Resultados> python local_volumetric_ray.py
+Saved: cet_environment_classification.csv
+environment
+isolated     0.9982
+clustered    0.0018
+Name: proportion, dtype: float64

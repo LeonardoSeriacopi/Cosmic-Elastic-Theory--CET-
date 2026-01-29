@@ -1,0 +1,3 @@
+PS D:\campo volumetrico\Resultados> python cet_environment_classification.py
+Mode (isolated): 0.3058199732798931
+Mode (clustered): 0.4623830995323981

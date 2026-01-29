@@ -57,6 +57,12 @@ CMB Cold Spot and internal secondary minimum (CS1/CS2).
 **JADES Dissipation Curve and Saturated Regime**
 **Empirical validation of the saturating dissipation model at High Redshift and the Role of BAO--Freedman Density Homogenization.**
 
+###test_13_radial_dispersion_peaks
+**Radial Dispersion Peaks in Weak Lensing
+**Weak-lensing analysis based on KiDS-DR4 data, identifying the radius of maximum ellipticity dispersion as a geometric observable.
+Includes a random-anchor reference sample and a structurally selected INSPIRE relic galaxy sample to test regime occupancy and support exclusion without parametric halo modeling.
+
+
 ### exploratory_tests/
 Older scripts and preliminary iterations.
 Kept for traceability only.

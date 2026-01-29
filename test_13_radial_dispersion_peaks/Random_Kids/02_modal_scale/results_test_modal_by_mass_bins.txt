@@ -1,0 +1,9 @@
+PS D:\campo volumetrico\Resultados> python test_modal_by_mass_bins.py
+Modal r_peak per Z bin:
+
+D:\campo volumetrico\Resultados\test_modal_by_mass_bins.py:12: FutureWarning: The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+  for zbin, sub in df.groupby("Z_bin"):
+(0.109, 0.5]: mode = 0.272 Mpc (N=2606)
+(0.5, 0.67]: mode = 0.344 Mpc (N=2434)
+(0.67, 0.89]: mode = 0.380 Mpc (N=2470)
+(0.89, 1.2]: mode = 0.392 Mpc (N=2490)

@@ -1,0 +1,2 @@
+Low ellipticity mode : 0.22395833333333326
+High ellipticity mode: 0.22395833333333326
